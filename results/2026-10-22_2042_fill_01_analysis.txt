@@ -1,0 +1,14 @@
+Run: 2026-10-22_2042_fill_01.csv
+Volume 59.7 m^3, flow 5.0 L/min, assumed purity 93.0%
+Baseline 20:45:30-20:57:57: sensor A 20.909%, sensor B 20.804% (n=373), noise (sd of 2-sensor avg) 0.038
+FILL (123 min, door-open samples: 0, temp 19.7-20.1 C)
+  tau = 84.8 ± 5.0 min   Css = 21.198 ± 0.008%   C0 = 20.922%   residual RMS 0.038
+  rise above baseline at end of fill: 0.233  (fitted plateau rise 0.298)
+  Ql from fill speed (tau): 0.699 m^3/min  (0.70 air changes/h)
+  Ql from fill level (Css): 1.205 m^3/min  (1.21 air changes/h)  [depends on purity and on the extrapolated plateau]
+  starting slope (0-20 min): 0.0048 %/min vs model 0.0060 %/min at 93.0% purity -> ratio 0.79, effective purity ~78%
+  sensor A - sensor B, last 30 min of fill: +0.018 (well-mixed check)
+DECAY (60 min, door-open samples: 3)
+  tau = 96.2 ± 2.5 min  ->  Ql = V/tau = 0.621 m^3/min (0.62 air changes/h)
+  fill-speed vs decay Ql agreement: 12% difference
+Door openings logged: 20:44:35, 20:55:52, 20:56:20, 23:31:00
